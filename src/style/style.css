@@ -8,7 +8,7 @@
 .navBar {
   background-color: #1d86d6;
   width: 100vw;
-  height: 20vh;
+  height: 15vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -46,7 +46,7 @@
 }
 
 .productText {
-  height: 25vh;
+  height: 40vh;
 }
 
 .cartBar {
@@ -57,9 +57,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 15vh;
+  height: 20vh;
   width: 100vw;
-  padding: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
 }
 
 .addRemoveButton {
@@ -74,6 +74,9 @@
   .navBar {
     height: 10vh;
     font-size: 1rem;
+  }
+  .cartBar {
+    height: 20vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
