@@ -1,33 +1,20 @@
-import React from 'react'
+import React from 'react';
 import Product from './Product';
 
 export default function Main(props) {
-
-
-    const {products  ,onAdd} = props;
+  const { products, onAdd } = props;
   return (
-    <div className='productDemo'>
+    <div className="productDemo">
 
-{
-  products.map( (product) => (
+      {
+  products.map((product) => (
 
+    <Product key={product.id} product={product} onAdd={onAdd} />
 
-
-
-    <Product    key={product.id} product={product} onAdd={onAdd}></Product>
-
-
-
-
-
-   
-))
-
+  ))
 
 }
 
-
-
     </div>
-  )
+  );
 }

@@ -1,30 +1,24 @@
-import React   from 'react'
-import "../style/style.css"
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
+/* eslint-disable global-require */
 
+import React from 'react';
+import '../style/style.css';
 
-const Nav=()=> {
-
- 
-
-
+function Nav() {
   return (
-    
+
     <div>
 
+      <nav className="navBar">
+        <img src={require('../img/frog.png')} alt="froG" className="navFrog" />
+        各式各樣寵物賣場
+        <br />
+        讓您擁有全世界的生物多樣性
+        <br />
 
-<nav className='navBar' >
-    <img src={require('../img/frog.png')} alt="froG" className='navFrog' />
-     各式各樣寵物賣場
-    <br />
-    讓您擁有全世界的生物多樣性     
-   <br />
-
-
-</nav>
+      </nav>
 
     </div>
-  )
+  );
 }
 
 export default Nav;
